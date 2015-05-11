@@ -16,8 +16,7 @@
 	<link rel="stylesheet" type="text/css" href="css/libs/jquery-ui-1.10.3.custom.css">
 
 	<!-- Library CSS  -->
-	<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
-
+    <link rel="stylesheet" href="css/new/carousel.css">
 
 	<!-- Main CSS  -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -26,7 +25,6 @@
 	<!-- Responsive CSS  -->
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive-menu.css">
-
 
 	<!-- Fix ie9  -->
 	<!--[if IE 9]>
@@ -101,64 +99,27 @@
 
 
 			<!-- Slider with Jquery bxslider -->
-			<section class="md-slide-wrapper md-slide-home">
-				<!-- Slide Image-->
-				<ul id="md-slide-fade" class="md-slide clearfix">
-					<li>
-						<img src="img/slide/slide-1.jpg" alt="">
-						<div class="content-slide">
-							<div class="home-content dark">
-								<h3 class="slide-title">
-									Welcome To <br> Gracehouse Resort
-								</h3>
-								<div class="dots-line">
-									<span></span>
-									<span></span>
-									<span></span>
-								</div>
-								<p class="slide-description">
-									Hospitality Redefined
-								</p>
-							</div>
-						</div>
-					</li>
-					<li>
-						<img src="img/slide/slide-3.jpg" alt="">
-						<div class="content-slide">
-							<div class="home-content">
-								<h3 class="slide-title">
-									Homely <br> Accommodation
-								</h3>
-								<div class="dots-line">
-									<span></span>
-									<span></span>
-									<span></span>
-								</div>
-								<p class="slide-description">
-									For your comfort
-								</p>
-							</div>
-						</div>
-					</li>
-					<li>
-						<img src="img/slide/slide-6.jpg" alt="">
-						<div class="content-slide">
-							<div class="home-content">
-								<h3 class="slide-title">
-									Conferencing <br/> Facilities
-								</h3>
-								<div class="dots-line">
-									<span></span>
-									<span></span>
-									<span></span>
-								</div>
-								<p class="slide-description">
-									For your business needs
-								</p>
-							</div>
-						</div>
-					</li>
-				</ul>
+			<section class="">
+				<div id="main_banner" class="demo">
+					<div class="carousel-slide" style="background: url(img/slide/slide-1.jpg) no-repeat 50% 50%; background-size: cover;">
+						<div class="caption">Simply Carousel</div>
+					</div>			
+					<div class="carousel-slide" style="background: url(img/slide/slide-2.jpg) no-repeat 50% 50%; background-size: cover;">
+						<div class="caption">Simple Image Slider</div>
+					</div>
+					<div class="carousel-slide" style="background: url(img/slide/slide-3.jpg) no-repeat 50% 50%; background-size: cover;">
+						<div class="caption">Hover to stop &amp; display arrows</div>
+					</div>	
+					<div class="carousel-slide" style="background: url(img/slide/slide-4.jpg) no-repeat 50% 50%; background-size: cover;">
+						<div class="caption">All done with one single line</div>
+					</div>
+					<span class="arrow left select-none">
+						<i class="icon icon-previous"></i>
+					</span>
+					<span class="arrow right select-none">
+						<i class="icon icon-next"></i>
+					</span>
+				</div> <!--#main_banner-->
 			</section>
 			<!-- Slider End -->
 
@@ -341,5 +302,12 @@
 
 <!-- Separate Javascript for each page -->
 <script type="text/javascript" src="js/home.js"></script>
+
+
+<!-- <script type="text/javascript" src="jscript/prism.js"></script> -->
+<script type="text/javascript" src="jscript/simplycarousel.js"></script>
+<script type="text/javascript" src="jscript/script2.js"></script>		
+
+
 </body>
 </html>

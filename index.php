@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<title>Gracehouse ~ Home</title>
+	<title>Gracehouse » Home</title>
 	<link rel="Shortcut Icon" href="./img/favicon.ico">
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
@@ -49,7 +49,7 @@
 
 						<!-- Logo -->
 						<h1 class="md-logo">
-							<a href="index.html">
+							<a href="index.php">
 								<img src="images/logo.png" alt="logo">
 							</a>
 						</h1>
@@ -102,17 +102,66 @@
 			<section class="">
 				<div id="main_banner" class="demo">
 					<div class="carousel-slide" style="background: url(img/slide/slide-1.jpg) no-repeat 50% 50%; background-size: cover;">
-						<div class="caption">Simply Carousel</div>
+						<div class="caption">
+							<h3 class="slide-title">
+								Welcome To <br> Gracehouse Resort
+							</h3>
+							<div class="dots-line">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+							<p class="slide-description">
+								Hospitality Redefined
+							</p>
+						</div>
 					</div>			
-					<div class="carousel-slide" style="background: url(img/slide/slide-2.jpg) no-repeat 50% 50%; background-size: cover;">
-						<div class="caption">Simple Image Slider</div>
+					<div class="carousel-slide" style="background: url(img/slide/slide-7.jpg) no-repeat 50% 50%; background-size: cover;">
+						<div class="caption">
+							<h3 class="slide-title black">
+								Homely <br> Accommodation
+							</h3>
+							<div class="dots-line">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+							<p class="slide-description">
+								For your comfort
+							</p>
+						</div>
 					</div>
-					<div class="carousel-slide" style="background: url(img/slide/slide-3.jpg) no-repeat 50% 50%; background-size: cover;">
-						<div class="caption">Hover to stop &amp; display arrows</div>
+					<div class="carousel-slide" style="background: url(img/slide/slide-6.jpg) no-repeat 50% 50%; background-size: cover;">
+						<div class="caption">
+							<h3 class="slide-title">
+								Conferencing <br/> Facilities
+							</h3>
+							<div class="dots-line">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+							<p class="slide-description">
+								For your business needs
+							</p>
+						</div>
 					</div>	
-					<div class="carousel-slide" style="background: url(img/slide/slide-4.jpg) no-repeat 50% 50%; background-size: cover;">
-						<div class="caption">All done with one single line</div>
-					</div>
+					<div class="carousel-slide" style="background: url(img/slide/slide-2.jpg) no-repeat 50% 50%; background-size: cover;">
+						<div class="caption">
+							<h3 class="slide-title">
+								Well Kempt <br/>
+								Lounges 
+							</h3>
+							<div class="dots-line">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+							<p class="slide-description">
+								For your comfort
+							</p>
+						</div>
+					</div>	
 					<span class="arrow left select-none">
 						<i class="icon icon-previous"></i>
 					</span>
@@ -307,7 +356,26 @@
 <!-- <script type="text/javascript" src="jscript/prism.js"></script> -->
 <script type="text/javascript" src="jscript/simplycarousel.js"></script>
 <script type="text/javascript" src="jscript/script2.js"></script>		
+<script type="text/javascript" src="jscript/jquery.weather.js"></script>
 
+<script type="text/javascript">
+	$(document).ready(function() {
+	  $.simpleWeather({
+	    location: 'Nairobi, Kenya',
+	    woeid: '',
+	    unit: 'c',
+	    success: function(weather) {
+	      html = '<h2><i class="icon-'+weather.code+'"></i> '+weather.temp+'&deg;'+weather.units.temp+'</h2>';
+	      html += '<ul><li>'+weather.city+', '+weather.region+'</li>';
+	      html += '<li class="currently">'+weather.currently+'</li>';	  
+	      $("#weather").html(html);
+	    },
+	    error: function(error) {
+	      $("#weather").html('<p>'+error+'</p>');
+	    }
+	  });
+	});
+</script>
 
 </body>
 </html>

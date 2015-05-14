@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<title>Gracehouse ~Contact Us</title>
+	<title>Gracehouse » Contact Us</title>
 	<link rel="Shortcut Icon" href="../../img/favicon.ico">
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
@@ -40,7 +40,7 @@
 
 						<!-- Logo -->
 						<h1 class="md-logo">
-							<a href="index.html">
+							<a href="../../index.php">
 								<img src="../../images/logo.png" alt="logo">
 							</a>
 						</h1>

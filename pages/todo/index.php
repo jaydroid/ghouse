@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<title>Gracehouse ~To do</title>
+	<title>Gracehouse » To do</title>
 	<link rel="Shortcut Icon" href="../../img/favicon.ico">
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
@@ -39,7 +39,7 @@
 
 						<!-- Logo -->
 						<h1 class="md-logo">
-							<a href="index.html">
+							<a href="../../index.php">
 								<img src="../../images/logo.png" alt="logo">
 							</a>
 						</h1>
@@ -154,7 +154,7 @@
 								<h5><i class="fa fa-cutlery"></i> Food &amp; Eateries</h5>
 								<ul class="to-do-list">
 									<li><i class="fa fa-caret-right"></i>  KFC [The Junction] </li>
-									<li><i class="fa fa-caret-right"></i>  Dormans Coffee Hse </li>
+									<li><i class="fa fa-caret-right"></i>  The Mugs </li>
 									<li><i class="fa fa-caret-right"></i>  Tamambo Tapas [Sea Food]</li>
 									<li><i class="fa fa-caret-right"></i>  Carnivore [Game meat]</li>
 									<li><i class="fa fa-caret-right"></i>  Pizza Inn &amp; Debonairs Pizza</li>

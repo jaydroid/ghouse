@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<title>Gracehouse ~Our Hotel</title>
+	<title>Gracehouse » Our Hotel</title>
 	<link rel="Shortcut Icon" href="../../img/favicon.ico">
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
@@ -41,7 +41,7 @@
 
 						<!-- Logo -->
 						<h1 class="md-logo">
-							<a href="index.html">
+							<a href="../../index.php">
 								<img src="../../images/logo.png" alt="logo">
 							</a>
 						</h1>
@@ -118,27 +118,10 @@
 									<div class="row clearfix">
 										<div class="hotel-extras grid_12">
 											<div class="grid_1 hotel-extra-icon">
-												<i class="fa fa-coffee"></i>
-											</div>
-											<div class="hotel-extras-text grid_10">
-												Make yourself a cup of coffee right from the comfort of your lounge
-											</div>
-										</div>
-										<div class="hotel-extras grid_12">
-											<div class="grid_1 hotel-extra-icon">
-												<i class="fa fa-leaf"></i>
-											</div>
-											<div class="hotel-extras-text grid_10">
-												For your convinience, we installed an ironing station for guests in their
-												louges
-											</div>
-										</div>
-										<div class="hotel-extras grid_12">
-											<div class="grid_1 hotel-extra-icon">
 												<i class="fa fa-desktop"></i>
 											</div>
 											<div class="hotel-extras-text grid_10">
-												Wholesome Entertainment in your room is guarenteed
+												Wholesome entertainment in your room is guarenteed
 											</div>
 										</div>
 										<div class="hotel-extras grid_12">
@@ -147,6 +130,23 @@
 											</div>
 											<div class="hotel-extras-text grid_10">
 												WiFi is available throughout the hotel for free
+											</div>
+										</div>
+										<div class="hotel-extras grid_12">
+											<div class="grid_1 hotel-extra-icon">
+												<i class="fa fa-coffee"></i>
+											</div>
+											<div class="hotel-extras-text grid_10">
+												Make yourself a cup of coffee right from the comfort of your lounge
+											</div>
+										</div>
+										<div class="hotel-extras grid_12">
+											<div class="grid_1 hotel-extra-icon">
+												<img src="../../img/iron.png">
+											</div>
+											<div class="hotel-extras-text grid_10">
+												For your convinience, we installed an ironing station for guests in their
+												louges
 											</div>
 										</div>
 									</div>
@@ -160,14 +160,6 @@
 										assured of a tranquile business environ.
 									</p>
 									<div class="row clearfix">
-										<div class="hotel-extras grid_12">
-											<div class="grid_1 hotel-extra-icon">
-												<i class="fa fa-coffee"></i>
-											</div>
-											<div class="hotel-extras-text grid_10">
-												 2 teas with snacks (10.00 O'Clock & 4.00 O'clock )
-											</div>
-										</div>
 										<div class="hotel-extras grid_12">
 											<div class="grid_1 hotel-extra-icon">
 												<i class="fa fa-briefcase"></i>
@@ -190,6 +182,14 @@
 											</div>
 											<div class="hotel-extras-text grid_10">
 												Fast internet connectivity for your conference needs
+											</div>
+										</div>
+										<div class="hotel-extras grid_12">
+											<div class="grid_1 hotel-extra-icon">
+												<i class="fa fa-coffee"></i>
+											</div>
+											<div class="hotel-extras-text grid_10">
+												 2 teas with snacks (10.00 O'Clock & 4.00 O'clock )
 											</div>
 										</div>
 									</div>
